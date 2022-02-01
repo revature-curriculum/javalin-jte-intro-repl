@@ -1,18 +1,15 @@
-## Javalin JTE
+## Javalin JTE Intro
 ---
 ### Description
-In this lab, we will cover how to use JTEs with your Javalin web application.
+In this lab, we will cover how to display something dynamically using jte.
 
 ---
 ### Steps
-1. In src -> main -> java, create a new class called WaterBottle with fields brandName and amount.
-2. Create a corresponding jte file with an if-else if-else statement with conditions based on the amount:
-* if amount is less than or equal to 0, then have the web page display: “I’m dying of thirst.” 
-* else if amount is greater than 50, then have the web page display: "I am content."
-* else(amount is 100), then have the web page display: "I'm always hydrated."
+1. In src -> main -> java -> Main.java create a new path for '/nanoTime' which will use ctx.render to show nanoTime.jte.
+2. In src -> main -> jte -> nanoTime.jte use the System.nanoTime() to print out the current nano time of the system. Use the time.jte file as reference.
 ---
 ### Sample Output
 ```
-I'm always hydrated.
+The current nano time is 37380372070875
 ```
 ---
