@@ -1,27 +1,15 @@
-# Instructions  
+## Javalin JTE Intro
+---
+### Description
+In this lab, we will cover how to display something dynamically using jte.
 
-  ** this file should contain student lesson instructions **
-
-  _ students will see these instructions in a read-only workspace tab _
-
-  ## Steps
-  1. 
-  2. 
-  3. 
-
-  Use [Markdown](https://gist.github.com/cuonggt/9b7d08a597b167299f0d) to format your instructions.
-
-  For example, here is a code block in python3
-```python
-def hello_world():
-  print("hello world!")
+---
+### Steps
+1. In src -> main -> java -> Main.java, create a new path for '/nanoTime', which will use ctx.render to show nanoTime.jte.
+2. In src -> main -> jte -> nanoTime.jte, use the System.nanoTime() method to print out the current nano time of the system. Use the time.jte file as reference.
+---
+### Sample Output
 ```
-
-
-  Include an image by placing it in the `assets` folder.
-
-  For example, here is the Replit logo:
-
-  ![alt text](assets/logo.png)
-  
-  
+The current nano time is 37380372070875
+```
+---
