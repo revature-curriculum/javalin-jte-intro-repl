@@ -18,9 +18,21 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
 
-      - name: copy command
+      - name: remove instructions md
         run: |
-          rm .lesson/instructions.md && rmdir .lesson && mkdir .lesson && cp README.md .lesson/instructions.md
+          rm .lesson/instructions.md
+          
+      - name: remove .lesson
+        run: |
+          rm -rf .lesson
+          
+      - name: create .lesson
+        run: |
+          mkdir .lesson
+          
+      - name: copy readme to instructions
+        run: |
+          cp README.md .lesson/instructions.md
       
       - name: Commit files
         run: |
