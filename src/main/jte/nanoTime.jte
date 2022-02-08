@@ -5,7 +5,7 @@
 </head>
 <body>
 
-
+  The current nano time is ${System.nanoTime()}
 
 </body>
 </html>

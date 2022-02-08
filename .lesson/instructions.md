@@ -1,4 +1,4 @@
-## JTE Intro
+## JTE Intro Answer
 ---
 ### Description
 In this lab, we will cover how to display something dynamically using jte.
