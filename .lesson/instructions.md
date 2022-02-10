@@ -5,8 +5,9 @@ In this lab, we will cover how to display something dynamically using jte.
 
 ---
 ### Steps
-1. In src -> main -> java -> Main.java, create a new path for '/nanoTime', which will use ctx.render to show nanoTime.jte.
-2. In src -> main -> jte -> nanoTime.jte, use the System.nanoTime() method to print out the current nano time of the system. Use the time.jte file as reference.
+1. In src -> main -> java -> Main.java, create a new path for '/nanoTime'
+2. In this new path use ctx.render to show nanoTime.jte. Use the lesson example as reference.
+3. In src -> main -> jte -> nanoTime.jte, use the System.nanoTime() method to print out the current nano time of the system. Use the time.jte file as reference.
 ---
 ### Sample Output
 ```
